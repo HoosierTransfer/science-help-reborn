@@ -13,7 +13,11 @@ export default {
       },
       lineHeight: {
         '16': '4rem',
-      }
+      },
+      fontFamily: {
+        'rubik': ['Rubik', 'sans-serif'],
+        'jetbrains': ['JetBrains Mono', 'monospace'],
+      },
     },
   },
   plugins: [],
