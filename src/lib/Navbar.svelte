@@ -28,7 +28,7 @@
 </script>
 
 <div class="z-50 fixed bottom-0 left-1/2 transform -translate-x-1/2" on:mouseenter={openBar} on:focus={openBar} on:mouseleave={closeBar} role="navigation">
-    <div class="z-50 absolute w-3/4 h-2 rounded-full bottom-0 bg-neutral-500 m-auto mb-3 left-1/2 transform -translate-x-1/2 transition ease-in-out duration-500" bind:this={handle}></div>
+    <div class="z-50 absolute w-3/4 h-2 rounded-full bottom-0 bg-neutral-500 m-auto mb-3 left-1/2 transform -translate-x-1/2 transition-transform ease-in-out duration-500" bind:this={handle}></div>
 
     <nav class="transition ease-in-out duration-500 invisible mb-3 transform translate-y-[120%]" bind:this={navbar}>
         <div class="bg-dark-navbar p-2.5 rounded-xl flex gap-2 backdrop-blur-md">

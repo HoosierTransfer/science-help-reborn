@@ -18,6 +18,9 @@ export default {
         'rubik': ['Rubik', 'sans-serif'],
         'jetbrains': ['JetBrains Mono', 'monospace'],
       },
+      spacing: {
+        "18": "4.5rem",
+      }
     },
   },
   plugins: [],
